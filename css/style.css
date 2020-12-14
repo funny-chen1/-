@@ -1,0 +1,582 @@
+
+.Headinfo{
+    width: 100%;
+    height: 50px;
+    background-color: #F4F2F2;
+}
+.btn-coloc{
+    background-color: #21DDF1;
+    height: 50px;
+    width: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F4F2F2;
+    border-radius: 8px;
+    border: none;
+    margin-left: 740px;
+    cursor: pointer;
+}
+.Headinfo ul{
+    text-align: center;
+}
+/* .Headinfo ul span img{
+    margin-bottom:10px;
+} */
+
+.Headlogo{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 110px;
+    display: flex;
+}
+.logo{
+    margin-left: 450px;
+    width: 576px;
+    height: 104px;
+}
+.logo img{
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.text{
+    margin-left: 15px;
+    
+}
+.text p{
+    font-size: 17px;
+}
+i{
+    color: #00A9BC;
+    font-weight: 800;
+    font-size: 20px;
+}
+.navbar{
+    background-color: #F7FAFB;
+    border-top:solid #DBE7EA 5px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-bottom: solid #DBE7EA 2px ;
+}
+.nav{
+    background-color: #F7FAFB;
+    margin-left: 380px;
+}
+
+.active{
+   background-color:#62D1DD;
+}
+.navbar-nav{
+    margin-left: 380px;
+}
+.nav-item{
+    margin-left: 15px;
+    color: black;
+    font-size: 18px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+.noticebox{
+    width: 100%;
+    height: 60px;
+    background-color: #F4F2F2;
+    padding-left: 380px;
+    display: flex;
+}
+.noticebox ul li{
+    list-style: none;
+    height: 30px;
+    font-family: Microsoft Yahei;
+    font-size: 16px;
+}
+.noticebox img{
+    margin-top: 20px;
+}
+.smallbox{
+    position: relative;
+    width: 280px;
+    height: 180px;
+    background-color: #def4f3;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+    float: left;
+}
+.smallbox img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.boxtext{
+    position: relative;
+    top: -70px;
+    left: 110px;
+}
+.navbox{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+}
+.navbox a:hover{width: 290px;height: 190px;border:solid #00A9BC 3px;background-color:#5DD3E2;border-radius: 8px;}
+.titlebar{
+    position: relative;
+    top: 220px;
+    left: 270px;
+    width: 1400px;
+    height: 50px;
+    background-color: skyblue;
+    border-bottom: solid #212529 1px;
+}
+.titlebar aside b{
+    position: relative;
+    top: -200px;
+    left: 10px;
+    font-size: 20px;
+    color: #212529;
+}
+.titlebar aside{
+    /* position: relative;
+    top: -200px;
+    left: 10px; */
+    width: 100px;
+    height: 50px;
+    border-bottom: solid #212529 3px;
+}
+.titlebar main span{
+    display: inline;
+    padding-left: 10px;
+    font-size: 14px;
+    float: left;
+    cursor: pointer;
+}
+.titlebar main{
+    position: relative;
+    top: -195px;
+   left: 1000px;
+    width: 1300px;
+}
+.downmune1{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 460px;
+    background-color: #62D1DD;
+    height: 180px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune2{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 550px;
+    background-color: #62D1DD;
+    height: 250px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune3{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 650px;
+    background-color: #62D1DD;
+    height: 250px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune4{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 750px;
+    background-color: #62D1DD;
+    height: 280px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune5{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 850px;
+    background-color: #62D1DD;
+    height: 350px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune6{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 950px;
+    background-color: #62D1DD;
+    height: 120px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune7{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 1050px;
+    background-color: #62D1DD;
+    height: 150px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune8{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 1150px;
+    background-color: #62D1DD;
+    height: 200px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune9{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 1250px;
+    background-color: #62D1DD;
+    height: 200px;
+    width: 420px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune10{
+    display: none;
+    position: absolute;
+    top: 220px;
+    left: 1350px;
+    background-color: #62D1DD;
+    height: 100px;
+    width: 200px;
+    z-index: 9999;
+    border-radius: 0 0 30px 0;
+    opacity: 0.8;
+}
+.downmune-span{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    border-bottom: solid yellow 3px;
+}
+.downmune-li{
+    cursor: pointer;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+}
+.left{
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 180px;
+    height: 320px;
+    z-index: 8000;
+}
+.right{
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    width: 180px;
+    height: 320px;
+    z-index: 8000;
+}
+.tab{
+    width: 1400px;
+    height: 450px;
+    /* border:solid skyblue 2px; */
+    position: absolute;
+    top: 980px;
+    left: 270px;
+    display: inline;
+}
+.tab img{
+    float: left;
+    width: 675px;
+    height: 450px;
+}
+.tabbox{
+    float: right;
+    width: 700px;
+    height: 112px;
+    border-bottom:solid black 1px;
+}
+.tabbox-bg{
+    background-color: #5DD3E2;
+}
+.datebox{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F9FAFB;
+    border-radius: 5px;
+}
+.datebox h4{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+.datebox span{
+    color: red;
+}
+.t-box{
+    float: left;
+}
+.more{
+    position: absolute;
+    top: 1440px;
+    left: 1590px;
+}
+.more a{
+    color: blue;
+    font-size: 16px;
+    list-style: none;
+}
+.titlebar2{
+    position: absolute;
+    top: 1480px;
+    left: 270px;
+    width: 1400px;
+    height: 50px;
+    background-color: skyblue;
+    border-bottom: solid #212529 1px;
+}
+.titlebar2 aside b{
+    font-size: 20px;
+    color: #212529;
+}
+.titlebar2 aside{
+    /* position: relative;
+    top: -200px;
+    left: 10px; */
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 100px;
+    height: 50px;
+    border-bottom: solid #212529 3px;
+}
+.titlebar2 main span{
+    padding-right: 10px;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+}
+.titlebar2 main{
+    /* position: relative;
+    top: -195px;
+   left: 1000px; */
+   padding-top: 15px;
+   float: left;
+    width: 1300px;
+}
+.zhedie{
+    position: absolute;
+    top: 1550px;
+    left: 250px;
+    width: 1450px;
+    height: 500px;
+}
+.card-header{
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-header a{
+    list-style: none;
+    color: #212529;
+}
+.card-header a:hover{
+    color: #212529;
+}
+.but{
+    width: 210px;
+    height: 109px;
+    background-color: #DEF4F3;
+    border-radius: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.but b{
+    color: #303133;
+    font-size: 17px;
+}
+.but p{
+    color: #52DBDB;
+    font-size: 13px;
+}
+.but-bg{
+    background-color:#13BDCE ;
+    opacity: 0.7;
+}
+.footerlink{
+    position: absolute;
+    top: 2350px;
+    left: 250px;
+    width: 1500px;
+    height: 100px;
+    text-align: center;
+}
+.link{
+    margin: 10px;
+    width: 270px;
+    height: 82px;
+    float: left;
+    border-radius: 5px;
+    border: solid #E8E6E6 1px;
+}
+.footerlogo{
+    position: absolute;
+    top: 2480px;
+    left: 270px;
+    width: 1400px;
+    height: 145px;
+    /* border: solid red 2px; */
+}
+.footerimg{
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+}
+.address{
+    padding-left: 30px;
+    float: left;
+}
+.company{
+    position: absolute;
+    top: 2630px;
+    left: 270px;
+    width: 1400px;
+    height:80px;
+}
+.company img{position: relative;top: 0;left: 430px;}
+.company p{
+   position: relative;top: -50px;left: 490px;
+}
+.company a{
+    position: relative;top: -80px;left:490px ;
+}
+.toggle-tab{
+    width: 220px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    background-color: #F1F9F8;
+}
+.toggle-tab span{
+    font-size: 15px;
+    color: #000000;
+}
+.toggle-item{
+    width: 800px;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+.toggle-item span{
+    font-size: 20px;
+    color: #212529;
+}
+.tab-content{
+    height: 900px;
+    padding: 20px;
+    background-color: #FFFFFF
+}
+.tabhear{
+    position: absolute;
+    top: 557px;
+    left: 380px;
+    background-color: #F1F9F8;
+    width: 220px;
+    height: 60px;
+    text-align: center;
+}
+.tabhear h4{
+    margin-top: 15px;
+    font-size: 24px;
+    color: #00A9BC;
+}
+.sbox{
+    background-color: #DEF4F3;
+    width: 260px;
+    height: 60px;
+    border-radius: 5px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.tab-pane span{
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+.tab-pane p{
+    float: right;
+    
+}
+.tab-pane-div{
+    background-color: #FFFFFF;
+} 
+.person{
+    width: 210px;
+    height: 280px;
+    border: solid #C0C0C0 1px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.person b{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #1898ca;
+}
+.person img{
+    margin: 10px 20px;
+    vertical-align: middle;
+    border-style: none;
+}
+.person-bg{
+    border: solid #2FC8DA 2px;
+    box-sizing: border-box;
+}
+
