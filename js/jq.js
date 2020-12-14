@@ -257,9 +257,6 @@ $(function () {
         window.location.href="page4.html";
     })
 
-    $(".but").mousedown(function(){
-        window.location.href="page3.html";
-    })
 
     $(".titlebar>main>span").mouseover(function(){
         $(this).css('color','blue');
@@ -285,6 +282,9 @@ $(function () {
     $('.but').mouseout(function(){
         $(this).removeClass('but-bg');
         $('.but>b').css('color','#303133');
+    })
+    $(".but").mousedown(function(){
+        window.location.href="page3.html";
     })
     $('.tab-pane-span').mouseover(function(){
         $(this).css('font-size','25px').siblings('span').css('font-size','20px');
